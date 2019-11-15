@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Talawanda Web Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Loading Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>	
+	<!-- Loading Font Icons -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css "rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- Loading  Style-->
+    <link href="css/animate.min.css" rel="stylesheet" type='text/css'>
+    <link href="css/style.css" rel="stylesheet" type='text/css'>
+    <!-- Loading  Custom Style-->
+    <link href="css/custom.css" rel="stylesheet" type='text/css'>
+    <!-- Twitter widget security exception -->
+    <meta name="twitter:widgets:csp" content="on" />
+</head>
+
+<body class="red">
+
+<div class="container">
+
+   <header>
+	  <div class="row">
+		<div class="logo">
+			<h1 class="text-center animated fadeInDown delayTwo">Talawanda Web Portal</h1>
+		</div>
+	   </div>				
+   </header>
+   <div class="text-center alertmessage animated bounceIn delay">
+     <!-- <script language="JavaScript" src="https://feed2js.org//feed2js.php?src=http://talawanda.org/alerts/rss.xml&num=5&targ=y&utf=y&html=a"  charset="UTF-8" type="text/javascript"></script> -->
+    </div>
+   <div class="row text-center animated fadeIn">
+      <form method="get" action="https://www.google.com/search">
+        <input type="text" name="q" size="100%" placeholder=" Google Search" class="searchform">
+      </form>
+   </div>
+   
+   <div class="tabs">
+	    <div id="students">
+			<div class="row text-center">
+				<div class="icon-effect">
+                    <a href="https://mail.google.com/a/talawanda.org/" class="animated bounceIn delay social-icon icon-envelope"><h5>Gmail</h5></a>
+                    <a href="https://drive.google.com/a/talawanda.org/" <i class="animated bounceIn delay social-icon fab fa-google-drive"></i><h5>Google Drive</h5></a>
+                    <a href="https://calendar.google.com/a/talawanda.org/" class="animated bounceIn delay social-icon icon-calendar"><h5>Google Calendar</h5></a>
+                    <a href="https://classroom.google.com/" class="animated bounceIn delay social-icon fa-users"><h5>Google Classroom</h5></a>
+                    <a href="https://hosted53.renlearn.com/111466/Public/RPM/Login/Login.aspx?srcID=s" class="animated bounceIn delay social-icon fa-book"><h5>Renaissance Place</h5></a>
+                    <a href="https://www-k6.thinkcentral.com/sp/access?sp=tc&connection=talawanda-org" <i class="animated bounceIn delay social-icon fa-compass"></i><h5>ELA Journeys</h5></a>
+                    <a href="https://sso.rumba.pearsoncmg.com/sso/login?service=https://k12integrations.pearsoncmg.com/ca/dashboard.htm&idpmetadata=https://www.talawanda.org" class="animated bounceIn delay social-icon fa-calculator"><h5>Envisions/CMP</h5></a>
+                    <a href="https://www.edcite.com/go" class="animated bounceIn delay social-icon fa-etsy"><h5>Edcite</h5></a>
+                    <a href="http://student.teachtci.com/student/sign_in" class="animated bounceIn delay social-icon fa-home"><h5>Teach TCI</h5></a>
+                    <a href="http://digital.gibbssmitheducation.com/Ohio_Adventure/" class="animated bounceIn delay social-icon fa-star-o"><h5>Ohio Adventure</h5></a>
+                    <a href="https://ondemand3.scilearn.com/slc/learner?tenantId=9665" class="animated bounceIn delay social-icon fa-forward"><h5>Fast ForWord</h5></a>
+                    <a href="https://www.typingclub.com/" class="animated bounceIn delay social-icon fa-keyboard-o"><h5>Talawanda Typing Club</h5></a>
+                    <a href="https://www.fossweb.com/" class="animated bounceIn delay social-icon fa-eyedropper"><h5>FOSSweb</h5></a>
+                    <a href="http://dashweb.pearsoncmg.com/dash.html" class="animated bounceIn delay social-icon fa-minus-square-o"><h5>CMP3 DASH</h5></a>
+                    <a href="https://ple.platoweb.com/" class="animated bounceIn delay social-icon fa-external-link"><h5>TOL</h5></a>
+                    <a href="https://talawanda.myedinsight.com/EdInsight/Form/OnlineTest/TestLogin.aspx" class="animated bounceIn delay social-icon fa-pie-chart"><h5>EdInsight Common Assessment</h5></a>
+                    <a href="http://www.infohio.org/" class="animated bounceIn delay social-icon fa-power-off"><h5>INFOhio</h5></a>
+                    <a href="http://infohio.swoca.net/opac/TA/TAHS/" class="animated bounceIn delay social-icon fa-book"><h5>THS Library Catalog</h5></a>
+                    <a href="http://infohio.swoca.net/opac/TA/TAMS/" class="animated bounceIn delay social-icon fa-book"><h5>TMS Library Catalog</h5></a>
+                    <a href="https://talawandaoh.libraryreserve.com" class="animated bounceIn delay social-icon fa-circle-o"><h5>OverDrive</h5></a>
+                    <a href="https://parentaccess.swoca.net/" class="animated bounceIn delay social-icon icon-signal"><h5>ProgressBook</h5></a>
+                    <a href="https://www.publicschoolworks.com/SHL/bullyingMgr.asp?di=29" class="animated bounceIn delay social-icon fa-warning"><h5>Report Bullying</h5></a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScEN6smdRBE5snTBKnnp-XU8Urq8-Mm6wplf8qgL3SHVasFgg/viewform" class="animated bounceIn delay social-icon fa-sitemap"><h5>CIPA TMS/THS</h5></a>
+                    <a href="http://talawandatribune.org/" class="animated bounceIn delay social-icon fa-bookmark"><h5>Talawanda Tribune</h5></a>
+                    <a href="http://thsdailynews.talawanda.org/" class="animated bounceIn delay social-icon fa-bookmark"><h5>THS Daily News</h5></a>
+                    <!-- <a href="http://bravesbuzz.talawanda.org/" class="animated bounceIn delay social-icon fa-bookmark"><h5>TMS Braves Buzz</h5></a> -->
+                    <a href="https://my.hrw.com/" class="animated bounceIn delay social-icon fa-globe"><h5>My HRW</h5></a>
+                    <a href="http://settingstone.org/" class="animated bounceIn delay social-icon fa-map-signs"><h5>Setting Stone</h5></a>
+                    <a href="https://app.liveschoolinc.com/#/login" class="animated bounceIn delay social-icon fa fa-building"><h5>LiveSchool</h5></a>
+                    <a href="https://studenttalawanda.freshdesk.com/" class="animated bounceIn delay social-icon fa-laptop"><h5>Student Tech HelpDesk</h5></a>
+                    <a href="https://talawanda.abre.io" class="animated bounceIn delay social-icon fab fa-app-store"><h5>Abre</h5></a>
+                    <a href="https://www.talawanda.org/" class="animated bounceIn delay social-icon icon-home"><h5>Talawanda.org</h5></a>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+<footer>
+	<div class="text-center"></div>
+</footer>		
+
+<!-- Load jQuery library -->	
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- Load Javascripts -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/ga.js"></script>
+</body>
+</html>
+<!-- Adapted from Hamilton City School District's web portal at http://hcsdoh.org/ -->
